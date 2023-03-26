@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>what is your icecream</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+<body>
+    <header>
+        <h1 id="title"> Your ideal icecream </h1>
+        <p id="description">show the world your favorite ice cream!</p>
+    </header>
+    <div class="survery">
+    <main>
+     <form id="survey-form">
+        <label for="name" id="name-label">Your name</label>
+        <input id="name" type="text" required  placeholder="Josh">
+        <label for="email" id="email-label">Your email</label>
+        <input id="email" type="email" required placeholder="vanilla@gmail.com"><br>
+        <label for="number" id="number-label">Your age</label>
+        <input id="number" type="number" required min="5" max="120" placeholder="18">
+    <hr>
+        <label>What flavours 
+        <select id="dropdown" name="dropdown">
+            <option>(flavours)</option>
+            <option>chocolate</option>
+            <option>vanilla</option>
+            <option>strawberry</option>
+            <option>mint</option>
+            <option>Other</option>
+        </select>
+        </label>
+        <hr>
+        
+        <label>what you prefer?</label>
+        <label for="cone"><input type="radio" name="radio-group" id="cone" value="0" class="inline">
+        cone</label>
+        <label for="cup"><input type="radio" name="radio-group" id="cup" value="1" class="inline">
+        cup</label>
+
+    <hr>
+       
+        <label>Your favourite brand?
+            <label ><input type="checkbox" value="0" id="brand0" class="inline">Ben and Jerrys</label>
+            <label ><input type="checkbox" value="1" id="brand1" class="inline">Cornetto</label>
+            <label ><input type="checkbox" value="2" id="brand2" class="inline">Häagen-Dazs</label>
+            <label ><input type="checkbox" value="3" id="brand3" class="inline">Magnum</label>
+            <label ><input type="checkbox" value="4" id="brand4" class="inline">Other</label>
+        </label>
+   
+    <hr>
+        <label >Why you like it?
+        <textarea id="why" name="why" rows="4" cols="30" placeholder="I like it because..."></textarea>
+        <input type="submit" id="submit">
+      </label>
+     </form>
+    </main>
+    </div>
+</body>
+</html>
